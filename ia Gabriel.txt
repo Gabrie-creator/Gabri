@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Chatbot</title>
+</head>
+<body>
+  <h1>¡Hola! Soy tu chatbot</h1>
+  <p>Escribe tu pregunta abajo:</p>
+  <input type="text" id="pregunta" />
+  <button onclick="responder()">Enviar</button>
+  <div id="respuesta"></div>
+  <script>
+    function responder() {
+      document.getElementById('respuesta').innerText = "¡Aquí irá la respuesta de la IA!";
+    }
+  </script>
+</body>
+</html>
